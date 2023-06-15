@@ -134,5 +134,53 @@ nav ul li a:hover::after{
     width: 100%
     border-radius: 15px;
 }
+.portfolio .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    align-items: center;
+    padding-left: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    
+}
+.portfolio .box-container .box{
+    margin: 1rem;
+}
+
+.portfolio .box-container .box img{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.contact-column {
+    float: left;
+    width: 50%;
+    margin-top: px;
+    text-align: center;
+    margin-left: 400px;
+
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+
+
+
+
 
 
